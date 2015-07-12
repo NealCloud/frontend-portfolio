@@ -1,6 +1,29 @@
+/*font shorthand forces size change not sure how to workaround*/
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #747704;
+}
+
 hr {
 	height: 8px;
 	background: #a8364c;
 	color: #a8364c;
 	border: 0 none;
+}
+
+.text-muted{
+	color: #bcbbbb;
+}
+
+.text-thin{
+	font-weight: 100;
+}
+
+.title-super{
+	font: 50px 'Lato', sans-serif;
+}
+
+.title-logo{
+	margin: 20px 0 0 0;
 }
